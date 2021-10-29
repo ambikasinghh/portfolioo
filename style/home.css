@@ -1,7 +1,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: black;
     height: 840px;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     position: absolute;
     top : 0;
     right: 0;
-    background: url(images/3.jpg) no-repeat center center/cover;
+    background: url(3.jpg) no-repeat center center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
