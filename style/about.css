@@ -5,6 +5,13 @@
     padding: 20px;
     margin-bottom: 50px;
 }
+.headings{
+    font-family: century;
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
 #pic{
     display: flex;
 }
