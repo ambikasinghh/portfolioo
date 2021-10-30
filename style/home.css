@@ -1,7 +1,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background: url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;
     height: 840px;
     justify-content: center;
     align-items: center;
