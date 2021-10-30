@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="style/all.css">
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/portfolio.css">
+    <link rel="stylesheet" href="style/service.css">
+    <link rel="stylesheet" href="style/contact.css">
     <title>Ambika Singh</title>
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">About Me</a> </li>
-            <li> <a href="#">Portfolio</a> </li>
-            <li> <a href="#">Services</a> </li>
-            <li> <a href="#">Contact Me</a> </li>
+            <li> <a href="#home">Home</a> </li>
+            <li> <a href="#about">About Me</a> </li>
+            <li> <a href="#portfolio">Portfolio</a> </li>
+            <li> <a href="#service">Services</a> </li>
+            <li> <a href="#contact ">Contact Me</a> </li>
         </ul>
     </nav>
+    <!--HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME-->
     <section id="home">
         <div class="main">
             <h1 class="headings">I am <br> Ambika Singh</h1>
@@ -26,6 +31,75 @@
                 Hire Me
             </button>
         </div>
+    </section>
+    <!--About About About About About About About About About About About About About About About About About About About About-->
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings">About Me</h1>
+            <img scr="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80" alt="">
+            <div id="intro">
+                <h2>Ambika Singh</h2>
+                <p>
+                    I’m Ambika Singh from Khandwa. Talking about my skills I’m quite good in Java and it’s frameworks like 
+                    – Collection, Spring MVC, Hibernate. I have also done an internship at Mantics Technologies where I worked 
+                    on e-commers platform using Sprig MVC and Hibernate, my task were building and customized mail sending application 
+                    to customers and make the application database independent.Beside this I’m Adaptive, Enthusiastic, Quick leaner and
+                    multitasker, I was the part of Technical Team in my College where we organized many events for juniors. And I also 
+                    worked at an NGO as a mentor where we organized Marathon, Fund Raiser, flash mob and other activities.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio-->
+    <section id="portfolio">
+        <h1 class="headings">Portfolio</h1>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1635510238241-a53e14fe659e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1635323961704-80bb08c1c6fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1635452065544-5d577118e9c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1635563527263-47d09bfab7c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+        </div>
+    </section>
+    <!--Service Service Service Service Service Service Service Service Service Service Service Service Service Service Service-->
+    <section id="service">
+        <h1 class="headings">Service</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="headings">Java Developer</h1>
+                <p>
+                    I have a good knowledge in Java and its frameworks. 
+                    I have worked on many projects using Spring MVC and hibernate.
+                </p>
+            </div>
+            <div class="box">
+                <h1 class="headings">UI Designer</h1>
+                <p>
+                    I have a good knowledge of Html and CSS. 
+                    I have created and Patment Gateway website using Html Css and RazorPay.
+                </p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Management</h1>
+                <p>
+                    I'm very active in many co curricular activities.
+                    I was the member of the technical club where we organize events and workshops.
+                    Besides this I also worked in NGO(RDZ) where we organize events like Marathon, Fund Raiser and Flash Mob.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Contact Me Contact Me Contact Me Contact Me Contact Me Contact Me Contact Me Contact Me Contact Me Contact Me Contact Me-->
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your email">
+            <textarea name="msg" id="msg" col="30" row="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="send" id="send">
+
+        </form>
     </section>
 </body>
 </html>
