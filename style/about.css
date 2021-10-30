@@ -12,6 +12,13 @@
     text-align: center;
     margin: 40px 0px;
 }
+.creative{
+  background-color: white;
+  width: 500px;
+  border: 5px solid rgb(60, 179, 113);
+  padding: 20px;
+  margin: 20px;
+}
 #pic{
     display: flex;
 }
