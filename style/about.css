@@ -12,12 +12,32 @@
     text-align: center;
     margin: 40px 0px;
 }
-.creative{
-  background-color: white;
-  width: 500px;
-  border: 5px solid rgb(60, 179, 113);
-  padding: 20px;
-  margin: 20px;
+.row1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(60, 179, 113) 50%, white 50% );
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box1:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(60, 179, 113);
 }
 #pic{
     display: flex;
